@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<body>
+    <h1>Payment Gateway</h1>
+    <h3>Contact details</h3>
+    <form action="">
+        <p>Name: <input type="text" name="name" id="name" required></p>
+        <p>Address: <input type="text" name="adress" id="adress"></p>
+        <fieldset>
+            <legend> <b>Gender</b></legend>
+        <p>
+            Male: <input type="radio" name="gender" id="male">
+            Female: <input type="radio" name="gender" id="female">
+        </p>
+    </fieldset>
+    <p>Pincode: <input type="number" name="pin" id="pin"></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <hr>
+    <h3>Card details</h3>
+    <p>Card number: <input type="number" name="card_number" id="card_number"></p>
+    <p> Card type: 
+        <select name="card" id="card">
+            <option value="">-Select the card type-</option>
+            <option value="rupay">RUPAY</option>
+            <option value="mastercard">MASTERCARD</option>
+            <option value="visa">VISA</option>
+        </select>
+    </p>
+    <p>Expiry date: <input type="date" name="expiry" id="expiry"></p>
+    <p>CVV: <input type="password" name="cvv" id="cvv" required></p>
+    <input type="submit" value="PAY NOW">
+    <input type="reset" value="RESET">
+    <br> <br> <br>
+    <table border="1">
+        <tr>
+            <td>Apple</td> 
+            <td>***</td>
+            <td>oneplus</td>
+            <td>****1/2</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>****</td>
+            <td>Redmi</td>
+            <td>****</td>
+        </tr>
+        
+    </table>
+
+    </form>
+    <form action="">
+        <p>Your name: <input type="text" name="name" id="name"></p>
+        
+    </form>
+    
+</body>
+</html>
